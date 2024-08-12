@@ -1,0 +1,25 @@
+# Cache & temp
+__pycache__
+.pub_blog_temp
+.pub_min_cache
+.ruff_cache
+.pytest_cache
+.DS_Store
+
+# Project specific
+.obsidian/
+.trash/
+
+# Logs
+*_mkdocs_build.log
+*_mkdocs_debug.zip
+
+# Other
+.env
+.idea
+.venv
+dist
+
+node_modules
+sandbox*
+docs_template
