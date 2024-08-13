@@ -9,17 +9,5 @@ categories:
 ---
 ## My Tech KnowledgeBase
 
-### Index
+This KnowledgeBase is designed to be a repository for the tech information that I frequently find myself having to look up.
 
-- [Apps](Apps/)
-    - [Docker](Docker/)
-    - [Obsidian](Obsidian/)
-    - [Quartz](Quartz/)
-    - [Theia-IDE](Theia-IDE/)
-    - [Zed](Zed/)
-- [Linux](Linux/)
-    - [ArchLinux](Archlinux/)
-    - [Linux Commands](Commands/)
-    - [Grub](Grub/)
-    - [Manjaro](Manjaro/)
-- [Python](Python/)
