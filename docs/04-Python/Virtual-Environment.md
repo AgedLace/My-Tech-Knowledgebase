@@ -23,6 +23,12 @@ categories:
 `python3 -m pip install --upgrade pip`  
 `python3 -m pip --version`
 
+### Upgrade Other Packages
+
+`pip intall <package-name> --upgrade`
+or
+`pip install <package-name> -U`
+
 ### Deactivate Virtual Environment
 
 `deactivate`
