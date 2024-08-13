@@ -9,4 +9,5 @@ tags:
 categories: 
 ---
 
-`docker pull <image>`
+- `docker pull <image>`
+

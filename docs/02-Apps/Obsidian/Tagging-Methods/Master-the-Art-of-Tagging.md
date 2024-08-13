@@ -1,5 +1,5 @@
 ---
-title: Master-the-Art-of-Tagging
+title: Master the Art of Tagging
 slug: master-tagging
 date: 2024-08-03 04:07:05
 update: 2024-08-11 07:34:54
@@ -10,8 +10,6 @@ categories:
 ---
 
 SOURCE - [Revolutionize Your Note-Taking: Master the Art of Tagging in Obsidian | by Rabbi Shlomo Einhorn | Apr, 2024 | Medium](https://medium.com/@rabbieinhorn/revolutionize-your-note-taking-master-the-art-of-tagging-in-obsidian-712afa25cacb)
-
----
 
 ## Laying the Groundwork
 
@@ -55,9 +53,9 @@ loc:coffee-shop
 
 ## Regularly Refine Your System
 
-## Implement Hierarchies as You Scale
+### Implement Hierarchies as You Scale
 
-### Example
+#### Example
 
     loc:home
     loc:home/office

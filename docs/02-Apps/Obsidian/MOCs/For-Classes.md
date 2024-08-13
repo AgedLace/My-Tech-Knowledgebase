@@ -1,5 +1,5 @@
 ---
-title: For-Classes
+title: MOCs For Classes
 slug: for-classes
 date: 2024-08-03 04:07:05
 update: 2024-08-11 07:34:41
@@ -8,13 +8,10 @@ tags:
   - Apps/Obsidian/MOCs/For-Classes
 categories: 
 ---
-## MOCs For Classes
 
 SOURCE - [The Four-Step MOC Creation Process I Use to Maximize Understanding of my College Classes in Obsidian | by Aidan Helfant | Medium](https://medium.com/@aidan.helfant/the-four-step-moc-creation-process-i-use-to-maximize-understanding-of-my-college-classes-in-98e0f23fcec)
 
----
-
-### Four Step Process
+## Four Step Process
 
 - Create a Course MOC Note
     - serves as a 'homebase' for the course

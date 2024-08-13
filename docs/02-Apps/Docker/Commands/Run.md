@@ -9,6 +9,6 @@ tags:
 categories: 
 ---
 
-`docker run -it <image>`
+- `docker run -it <image>`
 
-Note - `it` means interactive terminal
+- Note - `it` means interactive terminal

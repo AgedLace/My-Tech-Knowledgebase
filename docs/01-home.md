@@ -8,3 +8,18 @@ tags: []
 categories: 
 ---
 ## My Tech KnowledgeBase
+
+### Index
+
+- [Apps](Apps/)
+    - [Docker](Docker/)
+    - [Obsidian](Obsidian/)
+    - [Quartz](Quartz/)
+    - [Theia-IDE](Theia-IDE/)
+    - [Zed](Zed/)
+- [Linux](Linux/)
+    - [ArchLinux](Archlinux/)
+    - [Linux Commands](Commands/)
+    - [Grub](Grub/)
+    - [Manjaro](Manjaro/)
+- [Python](Python/)

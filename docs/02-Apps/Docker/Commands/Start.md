@@ -9,4 +9,5 @@ tags:
 categories: 
 ---
 
-`sudo systemctl start docker`
+- `sudo systemctl start docker`
+

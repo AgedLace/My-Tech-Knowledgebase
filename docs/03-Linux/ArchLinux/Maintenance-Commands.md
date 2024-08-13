@@ -1,5 +1,5 @@
 ---
-title: Maintenance-Commands
+title: Maintenance Commands
 slug: maintenance
 date: 2024-08-03 04:07:05
 update: 2024-08-11 07:29:45
@@ -8,48 +8,47 @@ tags:
   - Linux/ArchLinux/Commands/Maintenance
 categories: 
 ---
-## Arch Maintenance Commands
 
-### Check Systemd Failed Services
+## Check Systemd Failed Services
 
-systemctl --failed
+- `systemctl --failed`
 
-### Log Files Check
+## Log Files Check
 
-sudo journalctl -p 3 -xb
+- `sudo journalctl -p 3 -xb`
 
-### Update
+## Update
 
-sudo pacman -Syu
+- `sudo pacman -Syu`
 
-### Yay Update
+## Yay Update
 
-yay
+- `yay`
 
-### Delete Pacman Cache
+## Delete Pacman Cache
 
-sudo pacman -Sc
+- `sudo pacman -Sc`
 
-### Delete Yay Cache
+## Delete Yay Cache
 
-yay -Sc
+- `yay -Sc`
 
-### Delete Unwanted Dependencies
+## Delete Unwanted Dependencies
 
-yay -Yc
+- `yay -Yc`
 
-### Check Orphan Packages
+## Check Orphan Packages
 
-pacman -Qtdq
+- `pacman -Qtdq`
 
-### Remove Orphan Packages
+## Remove Orphan Packages
 
-sudo pacman -Rns $(pacman -Qtdq)
+- `sudo pacman -Rns $(pacman -Qtdq)`
 
-### Clean the Cache
+## Clean the Cache
 
-rm -rf .cache/*
+- `rm -rf .cache/*`
 
-### Clean the Journal
+## Clean the Journal
 
-sudo journalctl --vacuum-time=2weeks
+-`sudo journalctl --vacuum-time=2weeks`

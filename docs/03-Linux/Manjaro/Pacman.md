@@ -8,29 +8,26 @@ tags:
   - Linux/Manjaro/Pacman
 categories: 
 ---
-## Pacman
 
-### How Do I Reinstall All Packages, Retaining Information on whether Something Was Explicitly Installed or as a Dependency?
+## How Do I Reinstall All Packages, Retaining Information on whether Something Was Explicitly Installed or as a Dependency?
 
-To reinstall all the native packages: `pacman -Qnq | pacman -S -` or `pacman -S $(pacman -Qnq)` (the `-S` option preserves the installation reason by default).
+- To reinstall all the native packages: 
+    - `pacman -Qnq | pacman -S -` or 
+    - `pacman -S $(pacman -Qnq)` 
+    - (the `-S` option preserves the installation reason by default).
 
-You will then need to reinstall all the foreign packages, which can be listed with `pacman -Qmq`.
-
----
+- You will then need to reinstall all the foreign packages
+    - which can be listed with `pacman -Qmq`.
 
  SOURCE - [pacman - ArchWiki](https://wiki.archlinux.org/title/pacman#Manually_reinstalling_pacman)
 
  
 ---
 
-### Foreign Packages to Reinstall
-
-brave-beta-bin  
-caprine  
-gtkhash  
-gtkhash-thunar  
-logseq-desktop-bin  
-manjaro-hotfixes  
-pdfstudioviewer  
-protonmail-bridge-bin  
-protonmail-desktop
+- gtkhash  
+- gtkhash-thunar  
+- logseq-desktop-bin  
+- manjaro-hotfixes  
+- pdfstudioviewer  
+- protonmail-bridge-bin  
+- protonmail-desktop

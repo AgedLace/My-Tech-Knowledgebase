@@ -9,6 +9,6 @@ tags:
 categories: 
 ---
 
-`docker exec -it <container /bin/bash>`
+- `docker exec -it <container /bin/bash>`
 
-Note - `-it` means interactive terminal
+- Note - `-it` means interactive terminal

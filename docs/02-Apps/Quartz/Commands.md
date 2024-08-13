@@ -1,5 +1,5 @@
 ---
-title: Commands
+title: Quartz Commands
 slug: commands
 date: 2024-07-13 11:44:59
 update: 2024-08-11 07:35:03
@@ -8,16 +8,15 @@ tags:
   - Apps/Quartz/Commands
 categories: 
 ---
-## Quartz
 
-### Update
+## Update
 
-- npx quartz update
+- `npx quartz update`
 
-### Sync to GitHub
+## Sync to GitHub
 
-- npx quartz sync
+- `npx quartz sync`
 
-### Build Local Server
+## Build Local Server
 
-- npx quartz build --serve
+- `npx quartz build --serve`
