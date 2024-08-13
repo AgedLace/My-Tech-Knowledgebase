@@ -8,10 +8,10 @@ extra_css:
   - assets/stylesheets/publisher.css
 
 extra_javascript:
-  MathJax
+#  MathJax
   - assets/javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  Icons hack
+#  Icons hack
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js
 
 watch:
