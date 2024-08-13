@@ -4,35 +4,25 @@ site_author: AgedLace
 copyright: >
   &copy; 2024 - AgedLace
 
-# site_dir: docs
-# 
-# use_directory_urls: true
-# strict: true
+extra_css:
+  - assets/stylesheets/publisher.css
 
-# dev_addr: 127.0.0.1:8666
+extra_javascript:
+  MathJax
+  - assets/javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  Icons hack
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js
 
-# extra:
-#   homepage: https://benotdeceived.org/My-Tech-Knowledgebase
-
-# extra_css:
-#   - assets/stylesheets/publisher.css
-
-# extra_javascript:
-  # MathJax
-#   - assets/javascripts/mathjax.js
-#   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  # Icons hack
-#   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js
-
-#watch:
-#  - overrides
+watch:
+  - overrides
 
 theme:
   name: material
   language: en
   font:
     code: Lato
-#  custom_dir: overrides
+  custom_dir: overrides
 #  logo: publisher_logo.png
 #  favicon: publisher_icon.png
 
@@ -55,22 +45,14 @@ theme:
 
   features:
     - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.footer  # Prev/Next page
     - navigation.tracking  # Anchor tracking
     - navigation.top  # Back to top
     - navigation.sections  # Useful for an overview
     - navigation.indexes  # Needed for an overview
-#    - navigation.instant
-#    - navigation.instant.progress
     - search.suggest
     - search.highlight
     - search.share
-#    - content.action.edit
-#    - content.action.view
-#    - content.code.copy
-#    - content.code.annotate
-#    - content.tabs.link
     - toc.follow
 
 markdown_extensions:
@@ -144,7 +126,7 @@ plugins:
       publish:
         file_default: true
         dir_default: published
-  - pub-blog:
+  - pub-blog
   - pub-obsidian
   - pub-social
   - pub-minifier
